@@ -62,6 +62,7 @@
 
 <!-- PRICE -->
  <section id="price">
+   <div class="oferta">NASZA OFERTA</div>
   <div class="card-deck">
     <div class="card border-dark">
       <i class="fas fa-globe"></i>
@@ -69,6 +70,8 @@
         <h3 class="card-title">STRONA</h3>
         <h4 class="card-text">od <s>150zł</s></h4>
         <h3 class="sale">120zł</h3>
+        <p>Niezależnie czy jesteś małą, dużą firmą, czy klientem indywidualnym. 
+          Stworzymy dla Ciebie wizytówkę lub kompletną stronę internetową.</p>
       </div>
     </div>
     <div class="card border-dark">
@@ -76,6 +79,8 @@
       <div class="card-body">
         <h3 class="card-title">SKLEP</h3>
         <h4 class="card-text">od 200zł</h4>
+        <p>Projektujemy sklepy internetowe z pełną bazą produków. 
+          Z nami rozwiniesz swoją działalność w szybkim tempie.</p>
       </div>
     </div>
     <div class="card border-dark">
@@ -83,6 +88,7 @@
       <div class="card-body">
         <h3 class="card-title">BLOG</h3>
         <h4 class="card-text">od 100zł</h4>
+        <p>Pomagamy w stworzeniu miejsca w którym będziesz mógł dzielić się swoją pasją</p>
       </div>
     </div>
     <div class="card border-dark">
@@ -90,6 +96,7 @@
       <div class="card-body">
         <h3 class="card-title">APLIKACJA</h3>
         <h4 class="card-text">od 250zł</h4>
+        <p>Jeśli masz pomysł na aplikację, trafiłeś w dobre ręce! Stworzymy ją dla Ciebie.</p>
       </div>
     </div>
   </div>
@@ -99,34 +106,18 @@
 
   <section id="projects">
     <p> Nasze projekty </p>
-    <div class="col-lg-5">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-interval="3500">
-            <img src="image/business-and-finance.png" class="d-block w-100">
-          </div>
-          <div class="carousel-item" data-interval="3500">
-            <img src="image/business.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-interval="3500">
-            <img src="image/communications.png" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="image/tindog.png" class="image">
+      </div>
+      <div class="col-lg-4">
+        <img src="image/tindog.png" class="image">
+      </div>
+      <div class="col-lg-4">
+        <img src="image/tindog.png" class="image">
       </div>
     </div>
+
  
   </section>
  
@@ -187,10 +178,21 @@
  </section>
 
 
+ <!-- CONTACT -->
+
+ <section id="conact">
+   <label for="name">Imię i nazwisko <input type="text"></label> <br>
+  <label for="mail"> E-mail <input type="email" name="e-mail" id="mail"></label><br>
+  <label for="text">Wiadmomość:</label><br>
+  <label for="textarea"><textarea name="area" id="area" cols="50" rows="10"></textarea></label><br>
+  <a class="myButton">Wyślij</a>
+ </section>
+
 
       <!--  SCRIPTS  -->
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <script src="index.js"></script>
 </body>
 </html>
