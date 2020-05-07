@@ -5,35 +5,57 @@
   } */
   
   #nav {
+    
   }
   
+  .bg-light {
+    background-color: yellow;
+  }
+
   .nav-item {
       padding-left: 25%;
+      
   }
 
   .nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    
   }
 
   /* TITLE */
 
 #title {
     text-align: center;
-    background-color: sandybrown;
+    height: 200px;
+    background-color: #feb72b;
+    color:white;
+}
+
+.nazwa {
+  font-size: 50px;
+  /* rotate: 25deg; */
+  font-family: 'Libre Baskerville', serif;
+
 }
 
 .motto {
     font-family: 'Dancing Script', cursive;
+    font-size: 30px;
 }
 
 
 /* PRICE */
 
-.card .card-img-top {
-  width: 100px;
+#price {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
 
+.fas {
+  font-size: 60px;
+  color: #feb72b;
 }
 
 .card {
@@ -53,6 +75,14 @@
 
 /* HOW */
 
+#how {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  text-align: center;
+}
+
 .media .mr-3 {
   width: 70px;
 }
@@ -68,9 +98,33 @@
   /* text-align: center; */
 }
 
+#how .icon {
+  color: #feb72b;
+  font-size: 40px;
+}
+
 .mr-3 {
 
 }
+
+/* PROJECTS */
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #feb72b;
+}
+
+.carousel {
+  width: 500px;
+}
+
+#projects p {
+  font-size: 50px;
+  color: white;
+}
+
 
   /* FONTS */
 /* 
@@ -78,5 +132,6 @@
 
   font-family: 'Libre Baskerville', serif;
 
-  font-family: 'Dancing Script', cursive; */
+  font-family: 'Dancing Script', cursive; 
+  */
 
